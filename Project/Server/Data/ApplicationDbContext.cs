@@ -21,7 +21,7 @@ namespace Project.Server.Data
         public DbSet<Staff> Staffs { get; set; }
         public DbSet<Event>Events { get; set; }
         public DbSet<Venue> Venues { get; set; }
-        public DbSet <Organizer>Oraganizers { get; set; }
+        public DbSet <Organizer>Organizers { get; set; }
         public DbSet<EventMember> EventMembers { get; set; }
         public DbSet<Registration> Registrations { get; set; }
     }

@@ -5,5 +5,7 @@ namespace Project.Shared.Domain
     {
         public string VenueType { get; set; }
         public string Location { get; set; }
+
+        public string VenueID { get; set; }
     }
 }
