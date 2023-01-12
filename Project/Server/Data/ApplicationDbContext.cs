@@ -7,6 +7,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Project.Shared.Domain;
 
 namespace Project.Server.Data
 {
@@ -17,5 +18,11 @@ namespace Project.Server.Data
             IOptions<OperationalStoreOptions> operationalStoreOptions) : base(options, operationalStoreOptions)
         {
         }
+        public DbSet<Staff> Staffs { get; set; }
+        public DbSet<Event>Events { get; set; }
+        public DbSet<Venue> Venues { get; set; }
+        public DbSet <Organizer>Oraganizers { get; set; }
+        public DbSet<EventMember> EventMembers { get; set; }
+        public DbSet<Registration> Registrations { get; set; }
     }
 }
