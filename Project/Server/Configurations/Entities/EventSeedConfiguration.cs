@@ -25,7 +25,8 @@ new Event
     DateCreated = DateTime.Now,
     DateUpdated = DateTime.Now,
     CreatedBy = "System",
-    UpdatedBy = "System"
+    UpdatedBy = "System",
+    EventID = "111"
 }
 );
         }
